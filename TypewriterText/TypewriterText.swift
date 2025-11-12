@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AttributedTypewriterView: View {
+struct TypewriterText: View {
     let text: String
     let interval: TimeInterval
 
@@ -46,7 +46,7 @@ struct AttributedTypewriterView: View {
 
 #Preview {
     VStack(alignment: .leading) {
-        AttributedTypewriterView(text: "Hello, attributed typewriter! One more line for check")
+        TypewriterText(text: "Hello, attributed typewriter! One more line for check")
             .font(.title)
             .foregroundStyle(Color.brown)
     }
