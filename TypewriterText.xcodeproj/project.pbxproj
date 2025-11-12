@@ -14,7 +14,7 @@
 		A7CD4F682EC4A50900FD6F36 /* Exceptions for "TypewriterText" folder in "TypewriterText" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Info/Info.plist,
 			);
 			target = A7CD4F4D2EC4A30500FD6F36 /* TypewriterText */;
 		};
