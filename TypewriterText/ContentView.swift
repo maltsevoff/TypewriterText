@@ -9,12 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 16) {
+            TypewriterText("Hello, world! Let's type it out!")
                 .font(.custom(.typewriter, size: 32))
+
+            TypewriterText("Hello, world! Let's type it out!")
+                .font(.custom(.typewriter, size: 32))
+                .foregroundStyle(Color.brown)
+
+            TypewriterText("Hello, world! Let's type it out!")
+                .font(.custom(.typewriter, size: 32))
+                .foregroundStyle(Color.red)
+
+
+            TypewriterText("Hello, world! Let's type it out!")
+                .font(.custom(.typewriter, size: 26))
+
+            TypewriterText("Hello, world! Let's type it out!")
+                .font(.custom(.typewriter, size: 24))
+                .foregroundStyle(Color.brown)
+
+            TypewriterText("Hello, world! Let's type it out!")
+                .font(.custom(.typewriter, size: 20))
+                .foregroundStyle(Color.red)
         }
         .padding()
     }

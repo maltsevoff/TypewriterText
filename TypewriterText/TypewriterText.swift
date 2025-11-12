@@ -13,7 +13,7 @@ struct TypewriterText: View {
 
     @State private var attributedText: AttributedString = ""
 
-    init(text: String, interval: TimeInterval = 0.06) {
+    init(_ text: String, interval: TimeInterval = 0.06) {
         self.text = text
         self.interval = interval
     }
@@ -46,7 +46,7 @@ struct TypewriterText: View {
 
 #Preview {
     VStack(alignment: .leading) {
-        TypewriterText(text: "Hello, attributed typewriter! One more line for check")
+        TypewriterText("Hello, attributed typewriter! One more line for check")
             .font(.title)
             .foregroundStyle(Color.brown)
     }
