@@ -43,15 +43,3 @@ struct TypewriterText: View {
         }
     }
 }
-
-#Preview {
-    VStack(alignment: .leading) {
-        TypewriterText("Hello, attributed typewriter! One more line for check")
-            .font(.title)
-            .foregroundStyle(Color.brown)
-    }
-    .padding()
-}
-
-
-
