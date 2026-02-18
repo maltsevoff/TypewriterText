@@ -6,3 +6,6 @@ This implementtation supports:
 - any font size
 - any font color
 - It already knows final text size and doesn’t break surrounding layout
+
+Example:
+![single text](lhttps://github.com/maltsevoff/TypewriterText/typewriter-single.gif)
