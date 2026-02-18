@@ -8,4 +8,7 @@ This implementtation supports:
 - It already knows final text size and doesn’t break surrounding layout
 
 Example:
-![single text](lhttps://github.com/maltsevoff/TypewriterText/typewriter-single.gif)
+<div align="center">
+  <img src="https://github.com/maltsevoff/TypewriterText/blob/main/typewriter-single.gif" width="30%" />
+  <img src="https://github.com/maltsevoff/TypewriterText/blob/main/typewriter-multiple.gif" width="30%" />
+</div>
